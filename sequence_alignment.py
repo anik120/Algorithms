@@ -1,7 +1,7 @@
 x = "ALGORITHMS"
 y = "ALTURISTIC"
 d = []
-for i in range(len(x) + 1):
+for i in range(len(x)):
 	d.append([0] * (len(y) + 1))
 
 
@@ -17,7 +17,7 @@ for i in range(len(x) + 1):
 def longest_common_subsequence(X,Y,D):
 	for i in range (1, len(X) + 1):
 		for j in range(1, len(Y) + 1):
-			
+			if (X[])
 
 print(longest_common_subsequence(x,y, d))
 
